@@ -2539,12 +2539,15 @@ html.no-csstransitions .hero-content {
 }
 
 .s-about__section--profile .profile-pic {
+  display: flex;
+  flex-direction: column;
   width: 85%;
   /* position: relative; */
   top: 0rem;
   bottom: 0rem;
   /* left: calc(0 + 0px); */
-  display: flex;
+  /* align-items: center;
+  height: intrinsic */
   margin-left: auto;
   margin-right: auto;
   /* margin-bottom: 0 rem; */
@@ -2939,7 +2942,7 @@ html.no-csstransitions .hero-content {
   z-index: 1;
   content: "";
   display: block;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.5);
   opacity: 0;
   visibility: hidden;
   position: absolute;
