@@ -3047,8 +3047,7 @@ html.no-csstransitions .hero-content {
 .folio-item__project-link:focus,
 .folio-item__project-link:active {
   background-color: #fff;
-  /* color: #000000; */
-  background-color: rgba(255, 255, 255, 0.7);
+  color: #000000;
 }
 
 /* on hover
