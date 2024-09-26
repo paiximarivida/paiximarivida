@@ -132,6 +132,32 @@ a:active {
 }
 
 
+.language-selector {
+    position: absolute; /* Fixa o seletor no topo */
+    top: 20px; /* Distância do topo da página */
+    right: 40px; /* Distância da borda direita */
+}
+
+.language-selector a {
+    display: inline-flex;
+    align-items: center;
+    margin-left: 10px;
+    text-decoration: none;
+    font-size: 16px;
+  color: #ffffff66;
+  font-weight: bold; /* Define o peso da fonte como normal para todos os links */
+}
+
+.language-selector a.active {
+  color: #B60E38;
+    font-weight: bold; /* Define o negrito apenas para o idioma selecionado */
+}
+
+.language-selector a:hover {
+    color: #B60E38; /* Cor cinza escuro quando passar o mouse */
+}
+
+
 
 /* ===================================================================
  * # typography & general theme styles
