@@ -144,17 +144,17 @@ a:active {
     margin-left: 10px;
     text-decoration: none;
     font-size: 16px;
-  color: #ffffff66;
+  color: #ffffff55;
   font-weight: bold; /* Define o peso da fonte como normal para todos os links */
 }
 
 .language-selector a.active {
-  color: #B60E38;
+  color: #414888;
     font-weight: bold; /* Define o negrito apenas para o idioma selecionado */
 }
 
 .language-selector a:hover {
-    color: #B60E38; /* Cor cinza escuro quando passar o mouse */
+    color: #414888; /* Cor cinza escuro quando passar o mouse */
 }
 
 
@@ -1759,7 +1759,7 @@ input::-moz-focus-inner {
 }
 
 .header-nav a:hover {
-color: #B60E38 !important;
+color: #414888 !important;
 }
 
 .header-nav a:current {
@@ -1778,8 +1778,8 @@ color: #B60E38 !important;
 }
 
 .header-nav .current {
-  color: #B60E38 !important;
-  opacity: 0.75;
+  color: #414888 !important;
+  opacity: 1;
 }
 
 
@@ -2253,7 +2253,7 @@ color: #B60E38 !important;
 }
 
 .hero-scroll .scroll-link:hover svg path{
-  fill: #396936;
+  fill: #414888;
 }
 
 .hero-scroll .scroll-link:focus {
@@ -3381,7 +3381,7 @@ html.no-csstransitions .hero-content {
 .s-footer .footer-email-us .btn:focus {
   background-color: #000000;
   border-color: #ffffff;
-  color: #fff;
+  color: #414888;
 }
 
 .s-footer .footer-contacts {
