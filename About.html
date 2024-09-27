@@ -258,4 +258,13 @@
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
 
+<script>
+  const currentPath = window.location.pathname;
+  const lowercasePath = currentPath.toLowerCase();
+  
+  if (currentPath !== lowercasePath) {
+    window.location.pathname = lowercasePath;
+  }
+</script>
+
 </body>
