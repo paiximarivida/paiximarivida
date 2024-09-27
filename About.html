@@ -258,14 +258,4 @@
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
 
-<script>
-  const currentPath = window.location.pathname;
-  const lowercasePath = currentPath.toLowerCase();
-  
-  // Verifique se o caminho já está em minúsculas
-  if (currentPath !== lowercasePath && !currentPath.includes('About')) {
-    window.location.pathname = lowercasePath;
-  }
-</script>
-
 </body>
